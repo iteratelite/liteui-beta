@@ -1,9 +1,8 @@
-<script setup>
-import LiteButton from "./components/forms/LiteButton.vue";
-</script>
-
 <template>
-    <div class="flex mt-10 p-10">
+    <div class="flex flex-col gap-4 mt-10 p-10">
         <LiteButton title="Save" />
+        <accordion title="How to install this plugin?">
+            You can install this plugin using npm.
+        </accordion>
     </div>
 </template>
